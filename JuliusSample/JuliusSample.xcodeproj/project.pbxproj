@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		130F837512E33E9000488D19 /* fast.jconf in Resources */ = {isa = PBXBuildFile; fileRef = 130F837412E33E9000488D19 /* fast.jconf */; };
+		13684FCB12E0AC0D00FBF870 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 13684FCA12E0AC0D00FBF870 /* libz.dylib */; };
+		13684FD812E0AC2900FBF870 /* libsent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13684FD112E0AC1A00FBF870 /* libsent.a */; };
+		13684FD912E0AC2C00FBF870 /* libjulius.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13684FD712E0AC2300FBF870 /* libjulius.a */; };
+		13684FE512E0AC5B00FBF870 /* web.60k.8-8.bingramv4.gz in Resources */ = {isa = PBXBuildFile; fileRef = 13684FDE12E0AC5B00FBF870 /* web.60k.8-8.bingramv4.gz */; };
+		13684FE612E0AC5B00FBF870 /* web.60k.htkdic in Resources */ = {isa = PBXBuildFile; fileRef = 13684FDF12E0AC5B00FBF870 /* web.60k.htkdic */; };
+		13684FE712E0AC5B00FBF870 /* hmmdefs_monof_mix16_gid.binhmm in Resources */ = {isa = PBXBuildFile; fileRef = 13684FE112E0AC5B00FBF870 /* hmmdefs_monof_mix16_gid.binhmm */; };
+		13684FE812E0AC5B00FBF870 /* hmmdefs_ptm_gid.binhmm in Resources */ = {isa = PBXBuildFile; fileRef = 13684FE212E0AC5B00FBF870 /* hmmdefs_ptm_gid.binhmm */; };
+		13684FE912E0AC5B00FBF870 /* logicalTri in Resources */ = {isa = PBXBuildFile; fileRef = 13684FE312E0AC5B00FBF870 /* logicalTri */; };
+		13684FEB12E0AC9900FBF870 /* light.jconf in Resources */ = {isa = PBXBuildFile; fileRef = 13684FEA12E0AC9900FBF870 /* light.jconf */; };
+		13C5372212E1F9FB0071E4ED /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C5372112E1F9FB0071E4ED /* AVFoundation.framework */; };
+		13C5372912E1FA070071E4ED /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C5372812E1FA070071E4ED /* CoreAudio.framework */; };
+		13C5373F12E1FA910071E4ED /* Julius.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C5373E12E1FA910071E4ED /* Julius.m */; };
+		13C537A812E1FFEA0071E4ED /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C5378E12E1FFEA0071E4ED /* MBProgressHUD.m */; };
+		13C537A912E1FFEA0071E4ED /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = 13C5378F12E1FFEA0071E4ED /* README.mdown */; };
+		1D3623260D0F684500981E51 /* JuliusSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* JuliusSampleAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* JuliusSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* JuliusSampleViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* JuliusSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* JuliusSampleViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13684FD012E0AC1A00FBF870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13684FCC12E0AC1900FBF870 /* sent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = sent;
+		};
+		13684FD612E0AC2300FBF870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13684FD212E0AC2300FBF870 /* julius.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = julius;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		130F837412E33E9000488D19 /* fast.jconf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fast.jconf; sourceTree = "<group>"; };
+		13684FCA12E0AC0D00FBF870 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		13684FCC12E0AC1900FBF870 /* sent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sent.xcodeproj; path = ../sent/sent.xcodeproj; sourceTree = SOURCE_ROOT; };
+		13684FD212E0AC2300FBF870 /* julius.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = julius.xcodeproj; path = ../julius/julius.xcodeproj; sourceTree = SOURCE_ROOT; };
+		13684FDE12E0AC5B00FBF870 /* web.60k.8-8.bingramv4.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = "web.60k.8-8.bingramv4.gz"; sourceTree = "<group>"; };
+		13684FDF12E0AC5B00FBF870 /* web.60k.htkdic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = web.60k.htkdic; sourceTree = "<group>"; };
+		13684FE112E0AC5B00FBF870 /* hmmdefs_monof_mix16_gid.binhmm */ = {isa = PBXFileReference; lastKnownFileType = file; path = hmmdefs_monof_mix16_gid.binhmm; sourceTree = "<group>"; };
+		13684FE212E0AC5B00FBF870 /* hmmdefs_ptm_gid.binhmm */ = {isa = PBXFileReference; lastKnownFileType = file; path = hmmdefs_ptm_gid.binhmm; sourceTree = "<group>"; };
+		13684FE312E0AC5B00FBF870 /* logicalTri */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logicalTri; sourceTree = "<group>"; };
+		13684FEA12E0AC9900FBF870 /* light.jconf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = light.jconf; sourceTree = "<group>"; };
+		13C5372112E1F9FB0071E4ED /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		13C5372812E1FA070071E4ED /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		13C5373D12E1FA910071E4ED /* Julius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Julius.h; sourceTree = "<group>"; };
+		13C5373E12E1FA910071E4ED /* Julius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Julius.m; sourceTree = "<group>"; };
+		13C5378D12E1FFEA0071E4ED /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		13C5378E12E1FFEA0071E4ED /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		13C5378F12E1FFEA0071E4ED /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* JuliusSampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuliusSampleAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* JuliusSampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuliusSampleAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* JuliusSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuliusSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* JuliusSampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JuliusSampleViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* JuliusSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuliusSampleViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* JuliusSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuliusSampleViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* JuliusSample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuliusSample_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* JuliusSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JuliusSample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				13684FCB12E0AC0D00FBF870 /* libz.dylib in Frameworks */,
+				13684FD812E0AC2900FBF870 /* libsent.a in Frameworks */,
+				13684FD912E0AC2C00FBF870 /* libjulius.a in Frameworks */,
+				13C5372212E1F9FB0071E4ED /* AVFoundation.framework in Frameworks */,
+				13C5372912E1FA070071E4ED /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				13684FAE12E0ABDB00FBF870 /* Controller */,
+				13684FAD12E0ABD500FBF870 /* AppDelegate */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		13684FAD12E0ABD500FBF870 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* JuliusSampleAppDelegate.h */,
+				1D3623250D0F684500981E51 /* JuliusSampleAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		13684FAE12E0ABDB00FBF870 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28D7ACF60DDB3853001CB0EB /* JuliusSampleViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* JuliusSampleViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		13684FAF12E0ABE800FBF870 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				2899E5210DE3E06400AC0155 /* JuliusSampleViewController.xib */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+		13684FCD12E0AC1A00FBF870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13684FD112E0AC1A00FBF870 /* libsent.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13684FD312E0AC2300FBF870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13684FD712E0AC2300FBF870 /* libjulius.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13684FDB12E0AC5A00FBF870 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				13684FDC12E0AC5A00FBF870 /* lang_m */,
+				13684FE012E0AC5B00FBF870 /* phone_m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		13684FDC12E0AC5A00FBF870 /* lang_m */ = {
+			isa = PBXGroup;
+			children = (
+				13684FDE12E0AC5B00FBF870 /* web.60k.8-8.bingramv4.gz */,
+				13684FDF12E0AC5B00FBF870 /* web.60k.htkdic */,
+			);
+			path = lang_m;
+			sourceTree = "<group>";
+		};
+		13684FE012E0AC5B00FBF870 /* phone_m */ = {
+			isa = PBXGroup;
+			children = (
+				13684FE112E0AC5B00FBF870 /* hmmdefs_monof_mix16_gid.binhmm */,
+				13684FE212E0AC5B00FBF870 /* hmmdefs_ptm_gid.binhmm */,
+				13684FE312E0AC5B00FBF870 /* logicalTri */,
+			);
+			path = phone_m;
+			sourceTree = "<group>";
+		};
+		13C5374012E1FA940071E4ED /* Julius */ = {
+			isa = PBXGroup;
+			children = (
+				13C5373D12E1FA910071E4ED /* Julius.h */,
+				13C5373E12E1FA910071E4ED /* Julius.m */,
+			);
+			name = Julius;
+			sourceTree = "<group>";
+		};
+		13C5376612E1FFE90071E4ED /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				13C5378D12E1FFEA0071E4ED /* MBProgressHUD.h */,
+				13C5378E12E1FFEA0071E4ED /* MBProgressHUD.m */,
+				13C5378F12E1FFEA0071E4ED /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* JuliusSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				13C5376612E1FFE90071E4ED /* MBProgressHUD */,
+				13684FCC12E0AC1900FBF870 /* sent.xcodeproj */,
+				13684FD212E0AC2300FBF870 /* julius.xcodeproj */,
+				13C5374012E1FA940071E4ED /* Julius */,
+				32CA4F630368D1EE00C91783 /* JuliusSample_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13684FAF12E0ABE800FBF870 /* xib */,
+				13684FDB12E0AC5A00FBF870 /* model */,
+				8D1107310486CEB800E47090 /* JuliusSample-Info.plist */,
+				13684FEA12E0AC9900FBF870 /* light.jconf */,
+				130F837412E33E9000488D19 /* fast.jconf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				13C5372112E1F9FB0071E4ED /* AVFoundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				13C5372812E1FA070071E4ED /* CoreAudio.framework */,
+				13684FCA12E0AC0D00FBF870 /* libz.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* JuliusSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "JuliusSample" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JuliusSample;
+			productName = JuliusSample;
+			productReference = 1D6058910D05DD3D006BFB54 /* JuliusSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "JuliusSample" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 13684FD312E0AC2300FBF870 /* Products */;
+					ProjectRef = 13684FD212E0AC2300FBF870 /* julius.xcodeproj */;
+				},
+				{
+					ProductGroup = 13684FCD12E0AC1A00FBF870 /* Products */;
+					ProjectRef = 13684FCC12E0AC1900FBF870 /* sent.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* JuliusSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		13684FD112E0AC1A00FBF870 /* libsent.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libsent.a;
+			remoteRef = 13684FD012E0AC1A00FBF870 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		13684FD712E0AC2300FBF870 /* libjulius.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjulius.a;
+			remoteRef = 13684FD612E0AC2300FBF870 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* JuliusSampleViewController.xib in Resources */,
+				13684FE512E0AC5B00FBF870 /* web.60k.8-8.bingramv4.gz in Resources */,
+				13684FE612E0AC5B00FBF870 /* web.60k.htkdic in Resources */,
+				13684FE712E0AC5B00FBF870 /* hmmdefs_monof_mix16_gid.binhmm in Resources */,
+				13684FE812E0AC5B00FBF870 /* hmmdefs_ptm_gid.binhmm in Resources */,
+				13684FE912E0AC5B00FBF870 /* logicalTri in Resources */,
+				13684FEB12E0AC9900FBF870 /* light.jconf in Resources */,
+				13C537A912E1FFEA0071E4ED /* README.mdown in Resources */,
+				130F837512E33E9000488D19 /* fast.jconf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* JuliusSampleAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* JuliusSampleViewController.m in Sources */,
+				13C5373F12E1FA910071E4ED /* Julius.m in Sources */,
+				13C537A812E1FFEA0071E4ED /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JuliusSample_Prefix.pch;
+				INFOPLIST_FILE = "JuliusSample-Info.plist";
+				PRODUCT_NAME = JuliusSample;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JuliusSample_Prefix.pch;
+				INFOPLIST_FILE = "JuliusSample-Info.plist";
+				PRODUCT_NAME = JuliusSample;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../sent,
+					../julius,
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../sent,
+					../julius,
+				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "JuliusSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "JuliusSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
